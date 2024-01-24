@@ -27,9 +27,9 @@ jobs:
         name: test-report
         path: playwright-report/
 
-#    - name: Setup Pages
-#      uses: actions/configure-pages@v2
-#
-#    - name: Deploy to GitHub Pages
-#      id: deployment
-#      uses: actions/deploy-pages@v4
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
